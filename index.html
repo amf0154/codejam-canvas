@@ -7,6 +7,72 @@
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
-
+    <header>
+        <div class="header__nav-icon"> <a href="#"><img src="assets/images/nav icon.svg" alt="nav"> </a> </div>
+        <div class="header__logo">
+            <span>CodeJam - Pallete</span>
+        </div>
+        <div class="header__menu"> 
+            <a href="#">
+                <img src="assets/images/menu icon.svg" alt="menu"> 
+            </a> 
+        </div>
+    </header>
+    <div class="board">
+        <div class="board-left">
+            <div class="navi1">
+                <div class="buttom">
+                    <a href="#">
+                        <img src="assets/images/paint bucket.svg" alt="paint"> <span>Paint bucket</span>
+                    </a>
+                </div>
+                <div class="buttom">
+                    <a href="#"><img src="assets/images/choose color.svg" alt="paint"> <span>Choose color</span></a>
+                </div>
+                <hr>
+                <div class="buttom">
+                    <a href="#"><img src="assets/images/move.svg" alt="paint"> <span>Move</span>
+                    </a>
+                </div>
+                <div class="buttom">
+                    <a href="#"><img src="assets/images/transform.svg" alt="paint"> <span>Transform</span>
+                    </a>
+                </div>
+            </div>
+            <div class="navi2">
+                <div class="buttom">
+                    <a href="#"><img src="assets/images/icon-share1.svg" alt="paint"> <span>Current color</span>
+                    </a>
+                </div>
+                <div class="buttom">
+                    <a href="#"><img src="assets/images/Ellipse2.svg" alt="paint"> <span>Prev color</span>
+                    </a>
+                </div>
+                <hr>
+                <div class="buttom">
+                    <a href="#"><img src="assets/images/Ellipse3.svg" alt="paint"> <span>red</span>
+                    </a>
+                </div>
+                <div class="buttom">
+                    <a href="#"><img src="assets/images/Ellipse4.svg" alt="paint"> <span>blue</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="board-right">
+            <canvas id="canvas" width="512px" height="512px"></canvas>
+        </div> 
+        <div class="board-buttons">
+            <button id="4x4" class="board-buttons_item">
+                <p>4x4</p>
+            </button>
+            <button id="32x32" class="board-buttons_item">
+                <p>32x32</p>
+            </button>
+            <button id="256x256" class="board-buttons_item">
+                <p>256x256</p>
+            </button>
+        </div>
+    </div>
 </body>
 </html>
